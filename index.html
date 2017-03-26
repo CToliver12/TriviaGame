@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<!--Document's character set. --> 
+	<meta charset="UTF=8">
+		<title>Michael Jackson Trivia</title>
+	<!--Linking CSS --> 
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+	<div class="header-container">
+		<header> Michael Jackson Trivia!</header>
+	</div>
+
+	<div class="main-container">
+		<section id="start-page">
+	<button id="start">Start</button>
+	</section>
+
+	<section id="question-page">
+		<div class="timer">Time Remaining: <span class="time"></span></div>
+		<div id="question"></div>
+		<ol id="selectable" class= "answer-choices"></ol>
+	</section>
+
+	<section id="answer-page">
+		<div class="timer">Time Remaining: <span class="time"></span></div>
+		<div id="answer-assessment"></div>
+		<div id="correct-answer-info"></div>
+		</section>
+
+		<section id="results-page">
+		<div class="timer"> Time Remaining: <span class= "time"></span></div>
+		<div id="summary">All done, here's how you did!</div>
+		<div class="results"> Correct Answers: <span id="correct-answers"></span></div>
+		<div class= "results">Correct Answers: <span id="correct-answers"></span></div>
+		<div class="results">Incorrect Answers: <span id="incorrect-answers"></span></div>
+		<div class="results">Unanswered: <span id="unanswered"></span></div>
+		<button id="restart">Start Over? </button>
+	</section>
+</div>
+
+<!--Linking to Jquery-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+<!--Linking JavaScript-->
+<script type="text/javascript" src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
+
+

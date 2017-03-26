@@ -1,0 +1,105 @@
+body{
+	background: url('../images/mjbackground.jpg');
+	
+}
+
+header{ 
+	font-size: 50px;
+	text-align: center;
+	margin: 5%;
+	color: white;
+	margin-top: 190px;
+	
+}
+
+
+li{ 
+	height: 15%;
+	list-style: none;
+	font-family: sans-serif;
+	margin-top: 1%;
+	padding: 1%
+	font-size: x-large;
+	}
+
+.hover{ 
+	background-color: #ccc;
+	margin-right: 3%;
+	}
+
+section{
+	background-color: #FFDF00;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	height: 375px;
+	text-align: center;
+}
+
+button{ 
+	width: 40%;
+	height:10%;
+	font-size: 20px;
+	border: 2px solid black;
+	background: #ccc; 
+}
+
+#answer-media{ 
+	width: 55%;
+	height: 55%
+	margin-top: 2%; 
+}
+
+#corect-answer-info,
+#answer-assessment{ 
+	margin-top: 1%;
+}
+
+#start{
+	margin-top: 24%;
+}
+
+#restart{ 
+	margin-top: 5%;
+}
+
+.timer{
+	padding-top: 5%;
+	font-size: x-large;
+
+}
+
+#question,
+#summary{
+	padding-top: 2%;
+	font-size: x-large;
+
+}
+
+.results{
+	font-size: 20px;
+	padding-top: 2%;
+}
+
+/*These rules take effect when the broswer's width is 1200px or more.*/
+
+@media screen and (min-width: 1200px){
+
+	section{
+		height: 500px;
+		font-size: x-large;
+		}
+
+	ol{
+		margin-top: 5%;
+	}
+
+#answer-media{
+			width: 43%;
+		}
+
+#main-container{
+	margin-top: 5%;
+}
